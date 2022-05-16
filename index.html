@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="desktop.css" media="(min-width:992px)">
+
+    <!-- <link rel="stylesheet" href="print.css" media="print"> -->
+</head>
+
+<!-- 12 de Mayo: Progats tiene ahora información sobre el total de animales que hay en adopción en la entidad. Esta información nos viene de una base de datos, y queremos mostrarla en tiempo real al usuario -->
+
+<body>
+
+    <header class="header">
+        <h1 class="header--title">Progats</h1>
+        <img class="header--logo" src="./img/logo.webp" alt="logo progats">
+        <nav class="menu">
+            <a class="menu--item" href="">Equipo</a>
+            <a class="menu--item" href="">Servicios</a>
+            <a class="menu--item" href="">Contacto</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <p>¡Un hogar para cada gatito!</p>
+    </section>
+    <h2 class="members--title">Equipo</h2>
+    <section class="members">
+        <article class="members--card card__patricia">
+            <h3 class="members--name">Patricia</h3>
+            <p class="members--role">Fundadora</p>
+        </article>
+        <article class="members--card card__veronica">
+            <h3 class="members--name">Verónica</h3>
+            <p class="members--role">Voluntaria</p>
+        </article>
+        <article class="members--card card__edurne">
+            <h3 class="members--name">Edurne</h3>
+            <p class="members--role">Voluntaria</p>
+        </article>
+    </section>
+    <footer class="footer">
+        <p class="footer--description">PROGAT es una asociación sín ánimo de lucro. Apóyanos con <strong>
+                    <a class="footer--link" href="https://www.progatslagarriga.com">una
+                        donación</a>
+            </strong>. ¡Muchas
+            gracias!</p>
+        <p id="mensaje-adopcion">Actualmente hay <span id="num-gatos">6</span> gato/s por adoptar!</p>
+    </footer>
+    <div id="swipeUp">
+        <a href="#top"><img src="./img/paw.png" alt="swipe up arrow"></a>
+    </div>
+
+    <script>
+        // de la 'base de datos' nos ha venido que tenemos 27 gatos en adopción
+        let gatosAdopcion = 10; 
+
+        // En el nodo identificado con el id=num-gatos, cambia su contenido textual por el valor de la variable gatosAdopcion
+        document.querySelector("#num-gatos").textContent = gatosAdopcion;
+
+    </script>   
+
+    <script src="bucles.js"></script>
+
+</body>
+
+</html>

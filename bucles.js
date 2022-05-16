@@ -18,7 +18,7 @@ for (let i=0; i<gatosAdopcion; i++) {
 
 /**
  * Ejercicio 1: 
- * Modifica el bucle de creación de gatos para que, en vez de crear los gatos con las mismas imágenes, use esta URL para generar un gato aleatório ''https://placekitten.com/100/ 
+ * Modifica el bucle de creación de gatos para que, en vez de crear los gatos con las mismas imágenes, use esta URL para generar un gato aleatório ''https://thiscatdoesnotexist.com/ 
  */
 
 /**
@@ -27,7 +27,7 @@ for (let i=0; i<gatosAdopcion; i++) {
  */
 
 /**
- * Ejercicio 3: Progats tiene registrado en la variable 'numDonaciones' las donacioens diarias que recibe. Queremos enviar un mail de agradecimiento a todos los empleados al final del día. Escribe un bucle que simule que envíamos un correo indicando el número de donación y un mensaje de agradecimiento.
+ * Ejercicio 3: Progats tiene registrado en la variable 'numDonaciones' las donaciones diarias que recibe. Queremos enviar un mail de agradecimiento a todos los empleados al final del día. Escribe un bucle que simule que envíamos un correo indicando el número de donación y un mensaje de agradecimiento.
  */
 
 let donaciones = 10; // REESTRICCIÓN: Este dato nos viene de base de datos. NO PODEMOS CAMBIAR EL VALOR DE LA VARIABLE.

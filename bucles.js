@@ -1,18 +1,28 @@
 /**
  * Porgats nos ha pedido que creemos tantos iconos de gatitos como gatitos hay por adoptar.
  */
-
-for (let i=0; i<gatosAdopcion; i++) {
-    const imagenGato = document.createElement("img");
-    imagenGato.src = "/img/logo.webp";
-    imagenGato.style.width = "50px";
-
-    document.body.appendChild(imagenGato);
-}
-
-
-
-
+// if(gatosAdopcion<=10){
+//     for (let i=0; i<gatosAdopcion; i++) {
+//         const imagenGato= document.createElement("img");
+//         imagenGato.src = "https://thiscatdoesnotexist.com/?";
+//         imagenGato.style.width = "50px";
+    
+//         document.body.appendChild(imagenGato);
+//     }
+// }
+// else{
+//     for (let i=0; i<10; i++) {
+//         const imagenGato= document.createElement("img");
+//         imagenGato.src = "https://thiscatdoesnotexist.com/?";
+//         imagenGato.style.width = "50px";
+    
+//         document.body.appendChild(imagenGato);
+//     }
+//     const txtGato = document.createElement("p");
+//         txtGato.innerHTML = "<a href='#'>Haz click aquí para cargar más gatos</a>";
+    
+//         document.body.appendChild(txtGato);
+// }
 
 
 
@@ -31,7 +41,9 @@ for (let i=0; i<gatosAdopcion; i++) {
  */
 
 let donaciones = 10; // REESTRICCIÓN: Este dato nos viene de base de datos. NO PODEMOS CAMBIAR EL VALOR DE LA VARIABLE.
-
+for(let i=1;i<=donaciones;i++){
+    console.log("Estimado socio, gracias por tu donación numero "+i+" .Has hecho feliz a muchos gatitos")
+}
 
 // ejemplo de lo que se verá por consola del Chrome:
 
